@@ -1,0 +1,6 @@
+framework module Pods_emergencycallapp_DriverSide_UITests {
+  umbrella header "Pods-emergencycallapp(DriverSide)UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,40 @@
 //
 
 import UIKit
-
+import GoogleMaps
+import Firebase
+import IQKeyboardManagerSwift
+//mport FirebaseA
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var longitude=0.0
+    var latitude=0.0
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+          FirebaseApp.configure()
+           IQKeyboardManager.shared.enable = true
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+         
+                if let user = user {
+                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    
+                    // instantiate your desired ViewController
+                    let rootController = storyboard.instantiateViewController(withIdentifier: "home") as! ViewController
+                    // Because self.window is an optional you should check it's value first and assign your rootViewController
+                    if let window = self.window {
+                        window.rootViewController = rootController
+                        
+                    }
+                }
+                
+            
+        }
+      
+        GMSServices.provideAPIKey("AIzaSyBnZaIJeW-B0ufLBIdmoUJNnxXlVF7blvI")
         return true
     }
 

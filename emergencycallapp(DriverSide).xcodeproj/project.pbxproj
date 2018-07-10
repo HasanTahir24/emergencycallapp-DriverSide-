@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7249F63CFC6E9941D14A8AD9 /* Pods_emergencycallapp_DriverSide_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1387D98C084EE2681BC3BE /* Pods_emergencycallapp_DriverSide_Tests.framework */; };
+		77DB37686AB479B3FD2CB1A5 /* Pods_emergencycallapp_DriverSide_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730619D1C6B2F3675E2EFF0B /* Pods_emergencycallapp_DriverSide_.framework */; };
+		7DA56F2DEE54EFB39CAB5C73 /* Pods_emergencycallapp_DriverSide_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7960BEC56C9E1B94FC0399 /* Pods_emergencycallapp_DriverSide_UITests.framework */; };
+		9F38DAFD20E11018003964F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F38DAFC20E11018003964F8 /* GoogleService-Info.plist */; };
+		9F5E0ED320E642D50007F32A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E0ED220E642D50007F32A /* Location.swift */; };
+		9F5E0ED720E64D620007F32A /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E0ED620E64D620007F32A /* SecondController.swift */; };
+		9F5E0ED920E64FBB0007F32A /* MapFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E0ED820E64FBB0007F32A /* MapFunctions.swift */; };
+		9F72C53F20EA282300C418FB /* SixthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72C53E20EA282300C418FB /* SixthController.swift */; };
+		9F72C54320EA480000C418FB /* SeventhController(TableView).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72C54220EA480000C418FB /* SeventhController(TableView).swift */; };
+		9F72C54520EA4B1500C418FB /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72C54420EA4B1500C418FB /* MenuTableViewCell.swift */; };
+		9F7A29C920ECC29A00ADC446 /* EigthController(Enter Your Number).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A29C820ECC29A00ADC446 /* EigthController(Enter Your Number).swift */; };
+		9F7A29CB20ECCA6E00ADC446 /* NinthController(Verify Number).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A29CA20ECCA6E00ADC446 /* NinthController(Verify Number).swift */; };
+		9F7A29CF20ECCB0D00ADC446 /* TextFieldDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A29CE20ECCB0D00ADC446 /* TextFieldDesign.swift */; };
+		9F7A29D320ECD1B800ADC446 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A29D220ECD1B800ADC446 /* Authentication.swift */; };
+		9F7A29D520ECDF6000ADC446 /* TenthController(Sign Up).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A29D420ECDF6000ADC446 /* TenthController(Sign Up).swift */; };
+		9F7A29D720ECE2D800ADC446 /* TextFieldDesign2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A29D620ECE2D800ADC446 /* TextFieldDesign2.swift */; };
+		9F7A29D920ECE3D600ADC446 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A29D820ECE3D600ADC446 /* Driver.swift */; };
 		9F7F060F20DBAE2E00DA8FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F060E20DBAE2E00DA8FB6 /* AppDelegate.swift */; };
 		9F7F061120DBAE2E00DA8FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F061020DBAE2E00DA8FB6 /* ViewController.swift */; };
 		9F7F061420DBAE2E00DA8FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7F061220DBAE2E00DA8FB6 /* Main.storyboard */; };
@@ -14,6 +31,12 @@
 		9F7F061920DBAE3700DA8FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7F061720DBAE3700DA8FB6 /* LaunchScreen.storyboard */; };
 		9F7F062420DBAE3700DA8FB6 /* emergencycallapp_DriverSide_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F062320DBAE3700DA8FB6 /* emergencycallapp_DriverSide_Tests.swift */; };
 		9F7F062F20DBAE3700DA8FB6 /* emergencycallapp_DriverSide_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7F062E20DBAE3700DA8FB6 /* emergencycallapp_DriverSide_UITests.swift */; };
+		9F93EB2720EF78CD00ABB79D /* EleventhController(First Screen).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93EB2620EF78CD00ABB79D /* EleventhController(First Screen).swift */; };
+		9FA4A9BB20E25326008D13C4 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4A9BA20E25326008D13C4 /* RoundView.swift */; };
+		9FBACF8F20E8D14700144E26 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBACF8E20E8D14600144E26 /* ThirdController.swift */; };
+		9FBACF9420E8F25200144E26 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBACF9320E8F25200144E26 /* UserDetails.swift */; };
+		9FBACF9620E8F70500144E26 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBACF9520E8F70500144E26 /* FourthViewController.swift */; };
+		9FBACF9A20E90A4900144E26 /* FifthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBACF9920E90A4900144E26 /* FifthController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7960BEC56C9E1B94FC0399 /* Pods_emergencycallapp_DriverSide_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emergencycallapp_DriverSide_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AF0996FDC203F5B87C1860 /* Pods-emergencycallapp(DriverSide)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallapp(DriverSide)UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallapp(DriverSide)UITests/Pods-emergencycallapp(DriverSide)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2948CB8B5CD5532EC507883F /* Pods-emergencycallapp(DriverSide)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallapp(DriverSide)Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallapp(DriverSide)Tests/Pods-emergencycallapp(DriverSide)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		349641B6895BB4BB19ED44C6 /* Pods-emergencycallapp(DriverSide).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallapp(DriverSide).release.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallapp(DriverSide)/Pods-emergencycallapp(DriverSide).release.xcconfig"; sourceTree = "<group>"; };
+		730619D1C6B2F3675E2EFF0B /* Pods_emergencycallapp_DriverSide_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emergencycallapp_DriverSide_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1387D98C084EE2681BC3BE /* Pods_emergencycallapp_DriverSide_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emergencycallapp_DriverSide_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F38DAFC20E11018003964F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F5E0ED220E642D50007F32A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9F5E0ED620E64D620007F32A /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		9F5E0ED820E64FBB0007F32A /* MapFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFunctions.swift; sourceTree = "<group>"; };
+		9F72C53E20EA282300C418FB /* SixthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthController.swift; sourceTree = "<group>"; };
+		9F72C54220EA480000C418FB /* SeventhController(TableView).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeventhController(TableView).swift"; sourceTree = "<group>"; };
+		9F72C54420EA4B1500C418FB /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		9F7A29C820ECC29A00ADC446 /* EigthController(Enter Your Number).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EigthController(Enter Your Number).swift"; sourceTree = "<group>"; };
+		9F7A29CA20ECCA6E00ADC446 /* NinthController(Verify Number).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NinthController(Verify Number).swift"; sourceTree = "<group>"; };
+		9F7A29CE20ECCB0D00ADC446 /* TextFieldDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldDesign.swift; sourceTree = "<group>"; };
+		9F7A29D220ECD1B800ADC446 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		9F7A29D420ECDF6000ADC446 /* TenthController(Sign Up).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TenthController(Sign Up).swift"; sourceTree = "<group>"; };
+		9F7A29D620ECE2D800ADC446 /* TextFieldDesign2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldDesign2.swift; sourceTree = "<group>"; };
+		9F7A29D820ECE3D600ADC446 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 		9F7F060B20DBAE2E00DA8FB6 /* emergencycallapp(DriverSide).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emergencycallapp(DriverSide).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7F060E20DBAE2E00DA8FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F7F061020DBAE2E00DA8FB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +90,15 @@
 		9F7F062A20DBAE3700DA8FB6 /* emergencycallapp(DriverSide)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "emergencycallapp(DriverSide)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7F062E20DBAE3700DA8FB6 /* emergencycallapp_DriverSide_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergencycallapp_DriverSide_UITests.swift; sourceTree = "<group>"; };
 		9F7F063020DBAE3700DA8FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F93EB2620EF78CD00ABB79D /* EleventhController(First Screen).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EleventhController(First Screen).swift"; sourceTree = "<group>"; };
+		9FA4A9BA20E25326008D13C4 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		9FBACF8E20E8D14600144E26 /* ThirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdController.swift; sourceTree = "<group>"; };
+		9FBACF9320E8F25200144E26 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		9FBACF9520E8F70500144E26 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		9FBACF9920E90A4900144E26 /* FifthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthController.swift; sourceTree = "<group>"; };
+		B3F0E455698782EF6DCD8FBA /* Pods-emergencycallapp(DriverSide).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallapp(DriverSide).debug.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallapp(DriverSide)/Pods-emergencycallapp(DriverSide).debug.xcconfig"; sourceTree = "<group>"; };
+		CD83133C78F4C370935FEE21 /* Pods-emergencycallapp(DriverSide)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallapp(DriverSide)UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallapp(DriverSide)UITests/Pods-emergencycallapp(DriverSide)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6ECCF2BBD60AC420D14E1B /* Pods-emergencycallapp(DriverSide)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emergencycallapp(DriverSide)Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emergencycallapp(DriverSide)Tests/Pods-emergencycallapp(DriverSide)Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DB37686AB479B3FD2CB1A5 /* Pods_emergencycallapp_DriverSide_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7249F63CFC6E9941D14A8AD9 /* Pods_emergencycallapp_DriverSide_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +122,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA56F2DEE54EFB39CAB5C73 /* Pods_emergencycallapp_DriverSide_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49373AA3359B76BAC3DEE72F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				730619D1C6B2F3675E2EFF0B /* Pods_emergencycallapp_DriverSide_.framework */,
+				7E1387D98C084EE2681BC3BE /* Pods_emergencycallapp_DriverSide_Tests.framework */,
+				1B7960BEC56C9E1B94FC0399 /* Pods_emergencycallapp_DriverSide_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D92E6FF135B369E4E6BB85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F0E455698782EF6DCD8FBA /* Pods-emergencycallapp(DriverSide).debug.xcconfig */,
+				349641B6895BB4BB19ED44C6 /* Pods-emergencycallapp(DriverSide).release.xcconfig */,
+				2948CB8B5CD5532EC507883F /* Pods-emergencycallapp(DriverSide)Tests.debug.xcconfig */,
+				CE6ECCF2BBD60AC420D14E1B /* Pods-emergencycallapp(DriverSide)Tests.release.xcconfig */,
+				CD83133C78F4C370935FEE21 /* Pods-emergencycallapp(DriverSide)UITests.debug.xcconfig */,
+				25AF0996FDC203F5B87C1860 /* Pods-emergencycallapp(DriverSide)UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F7F060220DBAE2E00DA8FB6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +159,8 @@
 				9F7F062220DBAE3700DA8FB6 /* emergencycallapp(DriverSide)Tests */,
 				9F7F062D20DBAE3700DA8FB6 /* emergencycallapp(DriverSide)UITests */,
 				9F7F060C20DBAE2E00DA8FB6 /* Products */,
+				83D92E6FF135B369E4E6BB85 /* Pods */,
+				49373AA3359B76BAC3DEE72F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +177,12 @@
 		9F7F060D20DBAE2E00DA8FB6 /* emergencycallapp(DriverSide) */ = {
 			isa = PBXGroup;
 			children = (
+				9F8A53A620E63A9F0000D639 /* Controllers */,
+				9F8A53A520E63A970000D639 /* View */,
+				9F8A53A320E63A6A0000D639 /* Model */,
+				9F38DAFC20E11018003964F8 /* GoogleService-Info.plist */,
 				9F7F060E20DBAE2E00DA8FB6 /* AppDelegate.swift */,
-				9F7F061020DBAE2E00DA8FB6 /* ViewController.swift */,
-				9F7F061220DBAE2E00DA8FB6 /* Main.storyboard */,
 				9F7F061520DBAE3700DA8FB6 /* Assets.xcassets */,
-				9F7F061720DBAE3700DA8FB6 /* LaunchScreen.storyboard */,
 				9F7F061A20DBAE3700DA8FB6 /* Info.plist */,
 			);
 			path = "emergencycallapp(DriverSide)";
@@ -125,6 +206,49 @@
 			path = "emergencycallapp(DriverSide)UITests";
 			sourceTree = "<group>";
 		};
+		9F8A53A320E63A6A0000D639 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F7A29D620ECE2D800ADC446 /* TextFieldDesign2.swift */,
+				9F7A29CE20ECCB0D00ADC446 /* TextFieldDesign.swift */,
+				9FA4A9BA20E25326008D13C4 /* RoundView.swift */,
+				9F5E0ED220E642D50007F32A /* Location.swift */,
+				9F5E0ED820E64FBB0007F32A /* MapFunctions.swift */,
+				9FBACF9320E8F25200144E26 /* UserDetails.swift */,
+				9F72C54420EA4B1500C418FB /* MenuTableViewCell.swift */,
+				9F7A29D220ECD1B800ADC446 /* Authentication.swift */,
+				9F7A29D820ECE3D600ADC446 /* Driver.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F8A53A520E63A970000D639 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F7F061220DBAE2E00DA8FB6 /* Main.storyboard */,
+				9F7F061720DBAE3700DA8FB6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F8A53A620E63A9F0000D639 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F7F061020DBAE2E00DA8FB6 /* ViewController.swift */,
+				9F5E0ED620E64D620007F32A /* SecondController.swift */,
+				9FBACF8E20E8D14600144E26 /* ThirdController.swift */,
+				9FBACF9520E8F70500144E26 /* FourthViewController.swift */,
+				9FBACF9920E90A4900144E26 /* FifthController.swift */,
+				9F72C53E20EA282300C418FB /* SixthController.swift */,
+				9F72C54220EA480000C418FB /* SeventhController(TableView).swift */,
+				9F7A29C820ECC29A00ADC446 /* EigthController(Enter Your Number).swift */,
+				9F7A29CA20ECCA6E00ADC446 /* NinthController(Verify Number).swift */,
+				9F7A29D420ECDF6000ADC446 /* TenthController(Sign Up).swift */,
+				9F93EB2620EF78CD00ABB79D /* EleventhController(First Screen).swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F7F063320DBAE3700DA8FB6 /* Build configuration list for PBXNativeTarget "emergencycallapp(DriverSide)" */;
 			buildPhases = (
+				5FBF01D3B81AE74E79013EF3 /* [CP] Check Pods Manifest.lock */,
 				9F7F060720DBAE2E00DA8FB6 /* Sources */,
 				9F7F060820DBAE2E00DA8FB6 /* Frameworks */,
 				9F7F060920DBAE2E00DA8FB6 /* Resources */,
+				3133E18A56B4E070931AF56E /* [CP] Embed Pods Frameworks */,
+				2D99F2C06102B61B6C6DF07F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F7F063620DBAE3700DA8FB6 /* Build configuration list for PBXNativeTarget "emergencycallapp(DriverSide)Tests" */;
 			buildPhases = (
+				DB6ED580336C88F60BE68EBB /* [CP] Check Pods Manifest.lock */,
 				9F7F061B20DBAE3700DA8FB6 /* Sources */,
 				9F7F061C20DBAE3700DA8FB6 /* Frameworks */,
 				9F7F061D20DBAE3700DA8FB6 /* Resources */,
@@ -167,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F7F063920DBAE3700DA8FB6 /* Build configuration list for PBXNativeTarget "emergencycallapp(DriverSide)UITests" */;
 			buildPhases = (
+				5083C0432F4858D5579E0833 /* [CP] Check Pods Manifest.lock */,
 				9F7F062620DBAE3700DA8FB6 /* Sources */,
 				9F7F062720DBAE3700DA8FB6 /* Frameworks */,
 				9F7F062820DBAE3700DA8FB6 /* Resources */,
@@ -230,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7F061920DBAE3700DA8FB6 /* LaunchScreen.storyboard in Resources */,
+				9F38DAFD20E11018003964F8 /* GoogleService-Info.plist in Resources */,
 				9F7F061620DBAE3700DA8FB6 /* Assets.xcassets in Resources */,
 				9F7F061420DBAE2E00DA8FB6 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +381,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D99F2C06102B61B6C6DF07F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallapp(DriverSide)/Pods-emergencycallapp(DriverSide)-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallapp(DriverSide)/Pods-emergencycallapp(DriverSide)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3133E18A56B4E070931AF56E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallapp(DriverSide)/Pods-emergencycallapp(DriverSide)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerView/CountryPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-emergencycallapp(DriverSide)/Pods-emergencycallapp(DriverSide)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5083C0432F4858D5579E0833 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emergencycallapp(DriverSide)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FBF01D3B81AE74E79013EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emergencycallapp(DriverSide)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6ED580336C88F60BE68EBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-emergencycallapp(DriverSide)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F7F060720DBAE2E00DA8FB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7A29D720ECE2D800ADC446 /* TextFieldDesign2.swift in Sources */,
+				9F5E0ED920E64FBB0007F32A /* MapFunctions.swift in Sources */,
+				9F7A29C920ECC29A00ADC446 /* EigthController(Enter Your Number).swift in Sources */,
+				9F7A29CB20ECCA6E00ADC446 /* NinthController(Verify Number).swift in Sources */,
+				9F7A29CF20ECCB0D00ADC446 /* TextFieldDesign.swift in Sources */,
+				9F72C53F20EA282300C418FB /* SixthController.swift in Sources */,
+				9FBACF9420E8F25200144E26 /* UserDetails.swift in Sources */,
+				9FBACF8F20E8D14700144E26 /* ThirdController.swift in Sources */,
+				9F93EB2720EF78CD00ABB79D /* EleventhController(First Screen).swift in Sources */,
+				9FBACF9620E8F70500144E26 /* FourthViewController.swift in Sources */,
+				9F7A29D320ECD1B800ADC446 /* Authentication.swift in Sources */,
 				9F7F061120DBAE2E00DA8FB6 /* ViewController.swift in Sources */,
+				9F72C54320EA480000C418FB /* SeventhController(TableView).swift in Sources */,
+				9FA4A9BB20E25326008D13C4 /* RoundView.swift in Sources */,
+				9F5E0ED320E642D50007F32A /* Location.swift in Sources */,
+				9F72C54520EA4B1500C418FB /* MenuTableViewCell.swift in Sources */,
+				9F7A29D920ECE3D600ADC446 /* Driver.swift in Sources */,
 				9F7F060F20DBAE2E00DA8FB6 /* AppDelegate.swift in Sources */,
+				9F7A29D520ECDF6000ADC446 /* TenthController(Sign Up).swift in Sources */,
+				9F5E0ED720E64D620007F32A /* SecondController.swift in Sources */,
+				9FBACF9A20E90A4900144E26 /* FifthController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +688,7 @@
 		};
 		9F7F063420DBAE3700DA8FB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F0E455698782EF6DCD8FBA /* Pods-emergencycallapp(DriverSide).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +706,7 @@
 		};
 		9F7F063520DBAE3700DA8FB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349641B6895BB4BB19ED44C6 /* Pods-emergencycallapp(DriverSide).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +724,7 @@
 		};
 		9F7F063720DBAE3700DA8FB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2948CB8B5CD5532EC507883F /* Pods-emergencycallapp(DriverSide)Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +745,7 @@
 		};
 		9F7F063820DBAE3700DA8FB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6ECCF2BBD60AC420D14E1B /* Pods-emergencycallapp(DriverSide)Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +766,7 @@
 		};
 		9F7F063A20DBAE3700DA8FB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD83133C78F4C370935FEE21 /* Pods-emergencycallapp(DriverSide)UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +786,7 @@
 		};
 		9F7F063B20DBAE3700DA8FB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AF0996FDC203F5B87C1860 /* Pods-emergencycallapp(DriverSide)UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
